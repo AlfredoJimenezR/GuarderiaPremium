@@ -37,7 +37,6 @@
 		<div class="MargenI">
 			<h3 class="FW-300">Niños</h3>
 			<div class="Campo_Ovalado">
-				<<<<<<< HEAD
 				<div class="Dos_Column">
 					<div class="Buscador">
 						<label class="label">Alumno:</label> <input autocomplete="off"
