@@ -41,12 +41,17 @@ public class serverConnection implements Runnable{
 	        //Leemos mensaje del Server
 	        String Mensaje = Recibe.readUTF();
 	        //Lista para separar recibida del cliente
+<<<<<<< HEAD
 	        List<String> DatosR = new ArrayList<>(Arrays.asList(Mensaje.split(",")));
+=======
+	        List<String> Desplegado = new ArrayList<>(Arrays.asList(Mensaje.split(",")));
+>>>>>>> bf6205627bf8f61696ae8d90318e06a1a27e5b80
 	        Statement st;
 	        ResultSet rs;
 	        //Iniciamos conexion
 	        Conexion.Conexion();
 	        st = Conexion.con.createStatement();
+<<<<<<< HEAD
 
 	        //Datos a Mandar
 	        List<String> DatosM = new ArrayList<>();
@@ -86,6 +91,14 @@ public class serverConnection implements Runnable{
                 Logger.getLogger(serverConnection.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
+=======
+	        
+	        
+	        
+		}catch (IOException | SQLException e) {
+            System.err.println("Error: " + e.getMessage());
+		}
+>>>>>>> bf6205627bf8f61696ae8d90318e06a1a27e5b80
 		
 	}
 
