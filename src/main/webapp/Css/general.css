@@ -10,6 +10,7 @@ body{
     font-family: Noto Sans JP, sans-serif;
     line-height: 2;
     font-size: 1.2rem;
+    max-width: 100%;
 }
 
 header{
@@ -24,7 +25,7 @@ form{
 thead{
     border-bottom: 2px solid black;
 }
-
+/*
 table{
     border: 1px solid #cccccc;
     border-collapse: collapse;
@@ -34,6 +35,8 @@ table{
     font-family: Noto Sans JP, sans-serif; 
     font-size: 1.4rem;
 }
+
+
 
 table td{
     vertical-align: top;
@@ -46,12 +49,14 @@ table td{
 table th{
     vertical-align: bottom;
 }
-
+ 
 td, th {
     border: 1px solid #ccc;
     text-align: left;
+    
     padding: 8px;
 }
+
 
 table tbody tr:nth-child(even) {
     background: #e1e1e1;
@@ -60,6 +65,8 @@ table tbody tr:nth-child(even) {
 table tbody tr:nth-child(odd) {
     background-color: #EBEDEF;
 }
+
+*/
 
 .botonA, .botonB{
     color: black;
@@ -111,15 +118,132 @@ table tbody tr:nth-child(odd) {
 	margin-left: 30%;
 }
 
+.MargenI2{
+	margin-left: 15%;
+}
+
+.MargenD{
+	margin-left: 35%;
+}
+
+.MargenC{
+	margin-left: 50%;
+}
+
+.MargenTabla{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.BordeT{
+	
+	border: hidden;
+	opacity: 1;
+	background-color: #FFFFFF;
+	text-align: center;
+	width: 100%;
+	
+}
+
+.BordeT2{
+	
+	border-collapse: collapse;
+	Border: 1px solid;
+	opacity: 1;
+	background-color: #FFFFFF;
+	text-align: center;
+	width: 100%;
+	
+}
+
+.BordeT3{
+	
+	border-collapse: collapse;
+	Border: 1px solid;
+	opacity: 1;
+	background-color: #FFFFFF;
+	text-align: center;
+	width: 100%;
+	
+}
+
+.BordeT4{
+	
+	border-collapse: collapse;
+	Border: 1px solid;
+	opacity: 1;
+	background-color: #FFFFFF;
+	text-align: center;
+	width: 100%;
+	
+}
+
+
+.colort{
+	
+	background-color: #FFFFFF;
+	opacity: 1;
+	width: 30%;
+	text-align:center;
+	border: hidden;
+	
+}
+
+.colort2{
+	
+	display: none;
+	background-color: #FFFFFF;
+	opacity: 1;
+	width: 30%;
+	text-align:center;
+	border: hidden;
+	
+}
+
+.colort3{
+	
+	background-color: #FFFFFF;
+	opacity: 1;
+	width: 30%;
+	text-align:center;
+	border: 1px solid;
+	
+}
+
+.colort4{
+	
+	background-color: #FFFFFF;
+	opacity: 1;
+	width: 20%;
+	text-align:center;
+	border: 1px solid;
+	
+}
+
+
+
+.colort5{
+	
+	background-color: #FFFFFF;
+	opacity: 1;
+	width: 20%;
+	text-align:center;
+	border-bottom: 1px;
+	border-top: 1px;
+	
+}
+
+table{
+	
+	width: 80%;
+	
+}
+
 .Contenido-Header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-}
-
-.Buscador{
-	align-items: flex-start;
 }
 
 .Contenido-Header h1{
@@ -223,6 +347,7 @@ label{
     display: block;
     font-weight: 700;
     text-transform: uppercase;
+
 }
 
 legend {
@@ -239,7 +364,7 @@ legend {
 .Dos_Column{
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .Campo_Ovalado{
@@ -248,7 +373,15 @@ legend {
   	border-radius: 20px;
   	max-height: 100vh;
   	width: 75%;
-  	padding: 2rem 5rem;
+  	padding: 2rem 0 2rem 	5rem;
+}
+
+.Campo_Ovalado2{
+  	border: PowderBlue 5px solid;
+  	border-radius: 20px;
+  	max-height: 100vh;
+  	width: 100%;
+  	padding: 2rem 5rem 2rem 5rem;
 }
 
 .Dos_Column div{
@@ -275,4 +408,3 @@ legend {
 .Sangria{
     margin-left: 1.3rem;
 }
-
